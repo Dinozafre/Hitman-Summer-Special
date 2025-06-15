@@ -1,0 +1,24 @@
+{
+    "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+    "hash": "00D867E55D46DB50",
+    "DITL": "00B7E83B2B5BFE20",
+    "CLNG": "00E3CBB0725ED16C",
+    "rootContainer":{
+		"type": "WavFile",
+		"wavName": "dr40245_oppchefnofood01_gecko_carlingram_m_002",
+		"soundtag": "In-world_Mission_Important",
+		"defaultWav": "0049D2B8E1838ECC",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/golden/gecko/40000_story/dr40245_oppchefnofood01_gecko_carlingram_m_002.animset].pc_animset",
+		"languages": {
+			"en": "//(0,30)\\\\Good, about time.",
+			"fr": "//(0,30)\\\\Ah, il était temps.",
+			"it": "//(0,30)\\\\Bene, era ora.",
+			"de": "//(0,30)\\\\Gut, es ist höchste Zeit.",
+			"es": "//(0,30)\\\\Bien, ya era hora.",
+			"ru": "//(0,30)\\\\Как раз вовремя.",
+			"cn": "//(0,30)\\\\很好，差不多是时候了。",
+			"tc": "//(0,30)\\\\好，終於啊.",
+			"jp": "//(0,30)\\\\よし、やっと来たか。"
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+    "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+    "hash": "[assembly:/localization/hitman6/conversations/opulent/001_espresso/da001_espresso_meeting.sweetdialog?/detective_replic_001.sweetdialogitem].pc_dialogevent",
+    "DITL": "00B7E83B2B5BFE20",
+    "CLNG": "00E3CBB0725ED16C",
+    "rootContainer": {
+		"type": "WavFile",
+		"wavName": "detective_replic_001",
+		"soundtag": "world_Mission_Important",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ai/specops02/inca_xplnackrdo_specops02/inca_xplnackrdo_47bangkok_specops02_specops02_002.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ai/specops02/inca_xplnackrdo_specops02/inca_xplnackrdo_47bangkok_specops02_specops02_002.animset].pc_animset",
+		"languages": {
+            "en": "//(0,20)\\\\J.H.Q. interrogative. Is the target in a disguise? Uh-huh. Okay, five by five, understood. Out.",
+            "fr": "//(0,20)\\\\J.H.Q. interrogative. Is the target in a disguise? Uh-huh. Okay, five by five, understood. Out.",
+			"it": "//(0,20)\\\\J.H.Q. interrogative. Is the target in a disguise? Uh-huh. Okay, five by five, understood. Out.",
+			"de": "//(0,20)\\\\J.H.Q. interrogative. Is the target in a disguise? Uh-huh. Okay, five by five, understood. Out.",
+			"es": "//(0,20)\\\\J.H.Q. interrogative. Is the target in a disguise? Uh-huh. Okay, five by five, understood. Out.",
+			"ru": "//(0,20)\\\\Штаб, цель в маскировке? Понял-принял, отбой.",
+			"cn": "//(0,20)\\\\J.H.Q. interrogative. Is the target in a disguise? Uh-huh. Okay, five by five, understood. Out.",
+			"tc": "//(0,20)\\\\J.H.Q. interrogative. Is the target in a disguise? Uh-huh. Okay, five by five, understood. Out.",
+			"jp": "//(0,20)\\\\J.H.Q. interrogative. Is the target in a disguise? Uh-huh. Okay, five by five, understood. Out."
+        }
+	}
+}

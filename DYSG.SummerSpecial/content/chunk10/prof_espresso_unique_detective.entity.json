@@ -1,0 +1,69 @@
+{
+	"tempHash": "002B4BCE553CA522",
+	"tbluHash": "007C98B5DD41E36B",
+	"rootEntity": "cafec5ae1b38eaa4",
+	"entities": {
+		"cafe3cd13e2bf378": {
+			"parent": "cafec5ae1b38eaa4",
+			"name": "OutfitProfession",
+			"factory": "[modules:/zoutfitprofessionentity.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitprofessionentity.class].pc_entityblueprint",
+			"properties": {
+				"m_rKeywordProfession": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe3aa683873525",
+					"postInit": true
+				}
+			}
+		},
+		"cafe3aa683873525": {
+			"parent": "cafec5ae1b38eaa4",
+			"name": "Keyword_PROF_ESPRESSO_UNIQUE_DETECTIVE",
+			"factory": "[modules:/zkeywordentity.class].pc_entitytype",
+			"blueprint": "[modules:/zkeywordentity.class].pc_entityblueprint",
+			"properties": {
+				"m_sKeyword": {
+					"type": "ZString",
+					"value": "PROF_ESPRESSO_UNIQUE_DETECTIVE"
+				},
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "cafec5ae1b38eaa4",
+					"postInit": true
+				}
+			}
+		},
+		"cafec5ae1b38eaa4": {
+			"parent": null,
+			"name": "Prof_Espresso_Unique_Detective",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"propertyAliases": {
+				"m_aHolders": [
+					{
+						"originalProperty": "m_aHolders",
+						"originalEntity": "cafe3aa683873525"
+					}
+				]
+			},
+			"exposedInterfaces": {
+				"ZKeywordEntity": "cafe3aa683873525",
+				"ZOutfitProfessionEntity": "cafe3cd13e2bf378"
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

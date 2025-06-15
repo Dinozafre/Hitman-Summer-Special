@@ -1,0 +1,86 @@
+const { log, LogLevel } = require("@peacockproject/core/loggingInterop")
+
+const contracts = [
+{
+       "Data": {
+        "Objectives": [
+            {
+                "Id": "d2f0f620-a897-474c-afc2-ca74db40cdca",
+                "Primary": true,
+                "RepeatSuccess": 1,
+                "RepeatFailed": 1,
+                "SuccessEvent": {
+                    "EventName": "Kill",
+                    "EventValues": {
+                        "RepositoryId": "82c5dcb8-59a9-4fb6-916b-fd1544b5bfd9"
+                    }
+                }
+            },
+			{
+				"Id": "dac839f1-2674-4163-a23c-087cd71c0e41",
+				"Category": "primary",
+				"ObjectiveType": "custom",
+				"Image": "images/espresso/take_dictaphone.jpg",
+				"ForceShowOnLoadingScreen": true,
+				"BriefingName": "$loc UI_CONTRACT_ESPRESSO_OBJ_DICTAPHONE_NAME",
+				"BriefingText": "$loc UI_CONTRACT_ESPRESSO_OBJ_DICTAPHONE_TEXT",
+				"LongBriefingText": "$loc UI_CONTRACT_ESPRESSO_OBJ_DICTAPHONE_LONG",
+				"HUDTemplate": {
+					"display": "$loc UI_CONTRACT_ESPRESSO_OBJ_DICTAPHONE_NAME",
+					"iconType": 17
+				},
+				"Type": "statemachine",
+				"Definition": {
+					"Context": {
+						"Targets": ["77833357-8f78-4aa5-a4fd-2b04835c0576"]
+					},
+					"States": {
+						"Start": {
+							"47HasDictaphone": {
+								"Transition": "Success"
+							}
+						}
+					}
+				}
+            }
+        ],
+        "Bricks": [ 
+            "assembly:/_pro/scenes/missions/opulent/mission_stingray/mission_espresso.brick"
+        ],
+        "Entrances": [
+            "7c0ea7df-ea2b-4b10-8398-5f2667dd7c40",
+            "0cf9b2b4-e440-40d8-a466-a2e374b9f6af",
+            "59224315-c825-42ce-a121-ee0d09558431",
+            "272a52f4-e93e-4d73-8d39-612594bd1013",
+            "6fbe6552-8e48-4971-824a-62cac516638e"
+        ]
+    },
+    "Metadata": {
+        "IsPublished": true,
+        "TileImage": "images/espresso/title.jpg",
+        "Title": "UI_CONTRACT_ESPRESSO_TITLE",
+        "CodeName_Hint": "Espresso",
+        "Location": "LOCATION_OPULENT_STINGRAY",
+		"ScenePath": "assembly:/_pro/scenes/missions/opulent/mission_stingray/scene_stingray_basic.entity",
+        "Description": "UI_CONTRACT_ESPRESSO_DESC",
+        "Id": "156b398c-826d-4862-8a74-26d569d78242",
+        "CreationTimestamp": "6831-04-04T09:41:25.473Z",
+        "LastUpdate": "6832-05-19T09:56:04.984Z",
+        "Type": "flashback",
+		"Subtype": "specialassignment",
+        "Release": "2.72.x",
+		"RequiredUnlockable": "ACCESS_HIT_STINGRAY",
+		"Drops": ["ACCESS_HIT_S2_EXPANSION_CONCLUSION"],
+        "Opportunities": [] 
+    },
+    "UserData": {}
+}
+]
+module.exports = function MissionPlugin(controller) {
+    contracts.forEach((contract) => {
+        controller.addMission(contract)
+        controller.missionsInLocations[contract.Metadata.Location].push(contract.Metadata.Id)
+    })
+
+    log(LogLevel.INFO, "[Summer Special] Plugin is loaded and the ready for the launch")
+}

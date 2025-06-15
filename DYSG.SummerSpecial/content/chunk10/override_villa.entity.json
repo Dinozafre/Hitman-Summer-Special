@@ -1,0 +1,595 @@
+{
+	"tempHash": "00B3C07375B1C8E1",
+	"tbluHash": "00B095B7482D6FC7",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "dab6f65c98c95bc7",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 11 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "d79ab29031b24034",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 18 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "a319794eb466c75a",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 10 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "2dd57656abfe7d62",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 7 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "719e37b3a4ebaa84",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 4 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "c20d5f7379dca355",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 2 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "2d24bce9c660ab56",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 7 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "868ebd178df7a8e5",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 14 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "9e36a93999eddd61",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 6 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "80db877cf4bd160a",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 1 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "16cd98454e442204",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 9 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "33100dafd6a418bd",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 2 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "a6ac091034581ae4",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 16 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "ffea9ee7eb0b0280",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 6 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "f6acb6bb585b84d5",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 7 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "878e4decac6bb2dc",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 10 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "bbe03a650b47356b",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 11 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "2e9c39add665a61a",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 4 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "a90cecb630f150bb",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 13 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "06dc362484f7aaec",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 19 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "47a08b8ad02750b5",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 18 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 },
+				"m_nWeaponIndex": { "type": "int32", "value": 3 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "8d2e5847d170ad41",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 5 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "bba5a25c71b684b5",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "23f23696b210f960",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 3 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 },
+				"m_nWeaponIndex": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "a319794eb466c75a",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 7 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "2dd57656abfe7d62",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 8 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "d40f9e877fcbc32f",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 5 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "dab6f65c98c95bc7",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 1 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "719e37b3a4ebaa84",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 },
+				"m_nWeaponIndex": { "type": "int32", "value": 2 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "c20d5f7379dca355",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 11 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 },
+				"m_nWeaponIndex": { "type": "int32", "value": 3 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "4ce3ade3028d9333",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 1 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 },
+				"m_nWeaponIndex": { "type": "int32", "value": 0 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "a524e7c8cf12e922",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 5 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 },
+				"m_nWeaponIndex": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "c1cce69a9ee0a397",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 8 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 },
+				"m_nWeaponIndex": { "type": "int32", "value": 3 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "c63abc99589f8ea7",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 2 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 },
+				"m_nWeaponIndex": { "type": "int32", "value": 0 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "c37144b97d88641b",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "95f2f02f-205b-422f-a315-875568f911da"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 4 },
+				"m_nOutfitCharset": { "type": "int32", "value": 1 },
+				"m_nWeaponIndex": { "type": "int32", "value": 1 }
+			}
+		}
+	],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

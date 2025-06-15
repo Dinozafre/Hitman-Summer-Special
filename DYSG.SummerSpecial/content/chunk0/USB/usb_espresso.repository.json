@@ -1,0 +1,111 @@
+{
+    "aa3a27e1-944f-46fb-9113-73cb5350f7b4": {
+        "AIPerceptibleOnRelease": false,
+        "ActionRewardType": "AR_QuestItem",
+        "AdditionalKeywords": [
+            ""
+        ],
+        "AmmoItem": "00000000-0000-0000-0000-000000000000",
+        "AppliedModifiers": [
+            "00000000-0000-0000-0000-000000000000"
+        ],
+        "CanBeDropped": false,
+        "CanPistolWhip": false,
+        "CarryAnimSetType": "EAST_SMALLOBJ",
+        "CheatGroup": "eCGNone",
+        "CheatSpawnGroup_Everything": true,
+        "CheatSpawnGroup_Keys": false,
+        "CheatSpawnGroup_Standard": false,
+        "CheatSpawnGroup_Tools": false,
+        "CommonName": "Opulent_USBStick",
+        "CompareItem": "00000000-0000-0000-0000-000000000000",
+        "Description": "espresso_questitems_usbdrive_desc",
+        "DetectShots": false,
+        "DisplayItemCategoryOnlineTraitsIndex": 0,
+        "EnablePickUpOnRelease": true,
+        "EnablePickUpOnSpawn": true,
+        "EnablePickUpOnThrowRelease": true,
+        "EquipAbility": "EA_CANNOT_BE_EQUIPPED",
+        "Evergreen_CapacityCost": 0,
+        "Evergreen_GiveWhenUnlocked": true,
+        "Evergreen_LoseOnWounded": false,
+        "Evergreen_Price": 0,
+        "Evergreen_Rarity": 0,
+        "Evergreen_UnlockChallenge": "00000000-0000-0000-0000-000000000000",
+        "Evergreen_UnlockEntitlement": "",
+        "Evergreen_UnlockMastery": 0,
+        "ForbidCloseCombat": false,
+        "GripAnimType": "IGT_Suitcase",
+        "HarmlessImpact": false,
+        "HitmanCanConceal": false,
+        "HolsterAbility": "eHolsterQuestStorage",
+        "HudIcon": "50449939794290403",
+        "ID_": "aa3a27e1-944f-46fb-9113-73cb5350f7b4",
+        "Image": "images/unlockables/item_perspective_afdd059f-648d-4734-bcd5-9b9ca194ac4e_0.jpg",
+        "InteractionTimeMultiplier": 1,
+        "InventoryCategoryIcon": "QuestItem",
+        "InventoryCategoryName": "QuestItem",
+        "IsCheckedWhenFrisked": true,
+        "IsCoin": false,
+        "IsExplosive": false,
+        "IsPerceivedAsWeapon": false,
+        "ItemHUDType": "EIHT_None",
+        "ItemHandsCoverAnimLayer": "IH_ONEHANDED",
+        "ItemHandsIdle": "IH_ONEHANDED",
+        "ItemHandsUse": "IH_ONEHANDED",
+        "ItemImpactForce": 0,
+        "ItemImpactUpkick": 0,
+        "ItemSize": "ITEMSIZE_SMALL",
+        "ItemType": "eOther_GenericPickup",
+        "KillItemCategoryOnlineTraitsIndex": 0,
+        "KinematicWhileCarried": false,
+        "LocaKey": "",
+        "MainAnimSetType": "EAST_UNDEFINED",
+        "MeleeDamageBehavior": "EIMDB_Undefined",
+        "ModifierSlot1": [
+            "00000000-0000-0000-0000-000000000000"
+        ],
+        "ModifierSlot2": [
+            "00000000-0000-0000-0000-000000000000"
+        ],
+        "ModifierSlot3": [
+            "00000000-0000-0000-0000-000000000000"
+        ],
+        "ModifierSlot4": [
+            "00000000-0000-0000-0000-000000000000"
+        ],
+        "ModifierSlot5": [
+            "00000000-0000-0000-0000-000000000000"
+        ],
+        "MugshotIsTransparent": false,
+        "MugshotTransformation": "",
+        "Name_LOC": "espresso_questitems_usbdrive_title",
+        "NeverInvestigateDistractions": false,
+        "OnlineTraits": [
+            "NONE"
+        ],
+        "OverrideItemThrowRotation": false,
+        "PlaceableType": "PLACEABLE_NOT",
+        "PlacementOrientToHM": true,
+        "PlacementUseHitNormal": true,
+        "PoisonType": "POISONTYPE_NONE",
+        "RagdollImpactForce": 0,
+        "RagdollImpactForceGlobal": 0,
+        "RagdollImpactUpkick": 0,
+        "RagdollImpactUpkickGlobal": 0,
+        "Rarity": "ITEMRARITY_COMMON",
+        "RecognizableByCivilians": true,
+        "ReverseItemThrowRotationDirection": false,
+        "Runtime": "36676632425152040",
+        "SpawnKinematic": false,
+        "Stackable": false,
+        "SupportItem": "00000000-0000-0000-0000-000000000000",
+        "ThrowImpactVisualRadius": 1.4,
+        "ThrowType": "THROW_NONE",
+        "ThrowVelocity": 50,
+        "ThrownCollisionLoudness": "eLoudness_Default",
+        "Title": "Espresso USB",
+        "TokenID": "",
+        "UseFakePutDownPhysics": false
+    }
+}
