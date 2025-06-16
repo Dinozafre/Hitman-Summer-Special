@@ -1743,6 +1743,13 @@
 				"m_eActorCCClass": {
 					"type": "EActorCCPreset",
 					"value": "ACCP_CivilianeMale"
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00B93B0C31BBD2E8",
+						"flag": "5F"
+					}
 				}
 			}
 		},
@@ -2338,7 +2345,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "cafe0b7d6449bec1"
 				}
-			}
+			},
+			"events": { "OnTrue": { "Trigger": ["cafe370b4715742b"] } }
 		},
 		"cafe6a8665a9c7ff": {
 			"parent": "cafe007e8f62237e",
@@ -2946,7 +2954,11 @@
 			"properties": {
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe500bb92446b3", "cafec7036c413964"]
+					"value": [
+						"cafe500bb92446b3",
+						"cafec7036c413964",
+						"cafe6b206d6c1090"
+					]
 				},
 				"m_eEvaluation": {
 					"type": "ZValueBool_Operation_Signal.EEvaluationType",
@@ -3137,7 +3149,10 @@
 					"SpawnItem": ["cafeb4c9fd3aad10"],
 					"In": ["cafe5bd222669577"]
 				},
-				"OnReached": { "Start": ["cafe86ff2ad7d4df"] }
+				"OnReached": {
+					"Start": ["cafe86ff2ad7d4df"],
+					"Trigger": ["cafe29daccf09087"]
+				}
 			}
 		},
 		"cafed78967b09753": {
@@ -3484,12 +3499,7 @@
 					"value": "GET_GameplayStart"
 				}
 			},
-			"events": {
-				"EventOccurred": {
-					"Set": ["cafe7dca582276fe"],
-					"In": ["cafeb7c17db44b38"]
-				}
-			}
+			"events": { "EventOccurred": { "Set": ["cafe7dca582276fe"] } }
 		},
 		"cafe652423262097": {
 			"parent": "cafe95e925dc93c9",
@@ -4803,7 +4813,7 @@
 		},
 		"cafe656e6a75eff5": {
 			"parent": "cafe262a1ccdd4d4",
-			"name": "47 ain't dictophone yet",
+			"name": "47 ain't dictaphone yet",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
 		},
@@ -5336,6 +5346,52 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
+				}
+			}
+		},
+		"cafe38df8c04cac7": {
+			"parent": {
+				"ref": "741c71e05ccec604",
+				"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+			},
+			"name": "INGRAM",
+			"factory": "[modules:/zsounddefresource.class].pc_entitytype",
+			"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
+			"properties": {
+				"m_pResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/sounddefinitions/ingram.sdefs].pc_sdefs",
+						"flag": "5F"
+					}
+				},
+				"m_eVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_INGRAM"
+				}
+			}
+		},
+		"cafe29daccf09087": {
+			"parent": "cafe007e8f62237e",
+			"name": "ContractEvent",
+			"factory": "[modules:/zcontractsevententity.class].pc_entitytype",
+			"blueprint": "[modules:/zcontractsevententity.class].pc_entityblueprint",
+			"properties": {
+				"m_sName": {
+					"type": "ZString",
+					"value": "MeetingHappaned"
+				}
+			}
+		},
+		"cafe370b4715742b": {
+			"parent": "cafec7036c413964",
+			"name": "ContractEvent",
+			"factory": "[modules:/zcontractsevententity.class].pc_entitytype",
+			"blueprint": "[modules:/zcontractsevententity.class].pc_entityblueprint",
+			"properties": {
+				"m_sName": {
+					"type": "ZString",
+					"value": "47IsBroadcaster"
 				}
 			}
 		}
