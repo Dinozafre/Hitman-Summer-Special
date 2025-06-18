@@ -1,0 +1,13 @@
+{
+    "82c5dcb8-59a9-4fb6-916b-fd1544b5bfd9": {
+        "ID_": "82c5dcb8-59a9-4fb6-916b-fd1544b5bfd9",
+        "CharacterSetIndex": 0,
+        "Description": "Unknown",
+        "Description_LOC": "bio_actor_yosef_lindberch",
+        "Image": "images/espresso/espresso_1.png",
+        "Name": "Yosef Lindbergh",
+        "Outfit": "db284b19-0461-47f7-b2a6-1a611b2ba1b5",
+        "OutfitVariationIndex": 0,
+        "Tile": "images/actors/default_target.png"
+    }
+}

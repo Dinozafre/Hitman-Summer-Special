@@ -1,0 +1,220 @@
+{
+	"tempHash": "003DA6982FC0AFF5",
+	"tbluHash": "004D7B4B5BFE453C",
+	"rootEntity": "68e7773a136b5436",
+	"entities": {
+		"7e45998203c60479": {
+			"parent": "68e7773a136b5436",
+			"name": "KEYWORD_QuestItem_Espresso_Dictaphone",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_questitem_espresso_dictaphone.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_questitem_espresso_dictaphone.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["384ceaebb8f0a028"]
+				}
+			}
+		},
+		"384ceaebb8f0a028": {
+			"parent": "68e7773a136b5436",
+			"name": "itemart_espresso_dictaphone",
+			"factory": "[assembly:/_pro/items/templates/quest/voicerecorder.template?/itemart_espresso_dictaphone.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/items/templates/quest/voicerecorder.template?/itemart_espresso_dictaphone.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 0.13652099668979645,
+							"y": 0.4057910144329071,
+							"z": 0.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": null,
+					"postInit": true
+				}
+			}
+		},
+		"f766b88d4b4998d8": {
+			"parent": "68e7773a136b5436",
+			"name": "ItemCoreNoPhys_Espresso_Dictaphone",
+			"factory": "[assembly:/_pro/design/gamecore/itemcore.template?/itemcorenophys.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/itemcore.template?/itemcorenophys.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rGeomentity": {
+					"type": "SEntityTemplateReference",
+					"value": "384ceaebb8f0a028"
+				},
+				"m_PosHandAttach": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "384ceaebb8f0a028",
+						"externalScene": null,
+						"exposedEntity": "HandAttacherSpatial"
+					}
+				},
+				"m_DisposalType": {
+					"type": "EDisposalType",
+					"value": "DISPOSAL_UNDEFINED"
+				},
+				"m_bKinematic": { "type": "bool", "value": true },
+				"m_PosLeftHandAttach": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "384ceaebb8f0a028",
+						"externalScene": null,
+						"exposedEntity": "HandAttacherSpatial"
+					}
+				},
+				"m_PosFreeBoneAttach": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "384ceaebb8f0a028",
+						"externalScene": null,
+						"exposedEntity": "HandAttacherSpatial"
+					}
+				},
+				"m_PosPlacementAttach": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "384ceaebb8f0a028",
+						"externalScene": null,
+						"exposedEntity": "PropHelper_Item_Placement"
+					}
+				}
+			},
+			"events": {
+				"OnEquip": { "Item_Equipped": ["7de7c3d5722aaa08"] },
+				"OnUnEquip": { "Item_UnEquipped": ["7de7c3d5722aaa08"] },
+				"OnPlaced": { "ItemPlaced": ["7de7c3d5722aaa08"] },
+				"OnDrop": { "OnDrop_MixingEvent": ["7de7c3d5722aaa08"] },
+				"OnThrown": {
+					"OnThrown_MixingEvent": ["7de7c3d5722aaa08"]
+				}
+			},
+			"subsets": { "Replicable": ["68e7773a136b5436"] }
+		},
+		"7de7c3d5722aaa08": {
+			"parent": "68e7773a136b5436",
+			"name": "SoundSetup_Item",
+			"factory": "[assembly:/templates/itemtemplates/item_soundsetup.template?/soundsetup_item.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/itemtemplates/item_soundsetup.template?/soundsetup_item.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "384ceaebb8f0a028"
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "384ceaebb8f0a028"
+				},
+				"PropEquipped_Sound": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00A24213BC859332",
+						"flag": "5F"
+					}
+				},
+				"PropUnEquipped_Sound": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00D1E06E4D7EC850",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent1": {
+					"type": "SEntityTemplateReference",
+					"value": "384ceaebb8f0a028",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["68e7773a136b5436"] }
+		},
+		"68e7773a136b5436": {
+			"parent": null,
+			"name": "Prop_QuestItem_Espresso_Dictaphone",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -0.7034000158309937,
+							"y": -1.990630030632019,
+							"z": 0.1577250063419342
+						}
+					}
+				}
+			},
+			"propertyAliases": {
+				"m_eidParent": [
+					{
+						"originalProperty": "m_eidParent",
+						"originalEntity": "384ceaebb8f0a028"
+					}
+				],
+				"m_mTransform": [
+					{
+						"originalProperty": "m_mTransform",
+						"originalEntity": "384ceaebb8f0a028"
+					}
+				]
+			},
+			"exposedInterfaces": {
+				"ZHM5Item": "f766b88d4b4998d8",
+				"IItem": "f766b88d4b4998d8",
+				"IItemBase": "f766b88d4b4998d8",
+				"ZSpatialEntity": "384ceaebb8f0a028",
+				"ZGeomEntity": "384ceaebb8f0a028"
+			}
+		},
+		"e03258308cf497d3": {
+			"parent": "68e7773a136b5436",
+			"name": "keyword_ITEMRULE_LEGAL",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_itemrule_legal.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_itemrule_legal.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["384ceaebb8f0a028"]
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "[assembly:/sound/wwise/exportedwwisedata/events/item_events/itemtemplateevents/item_closecombat_impact_play.wwiseevent].pc_wwisebank",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/sound/wwise/exportedwwisedata/events/item_events/itemtemplateevents/item_deadlythrowimpact_play.wwiseevent].pc_wwisebank",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/sound/wwise/exportedwwisedata/events/item_events/itemtemplateevents/item_foley_item_place_play.wwiseevent].pc_wwisebank",
+			"flag": "5F"
+		}
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

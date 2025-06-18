@@ -1,0 +1,309 @@
+{
+	"tempHash": "00D891AC8D7DEED5",
+	"tbluHash": "00FB8843BE6A9225",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "actor_opulent_unique_yozeflindberg_m_v0",
+			"factory": "00028BAEA86DD2FD",
+			"blueprint": "002045A6D2A25237",
+			"properties": {
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				},
+				"m_fLODScale": { "type": "float32", "value": 1.0 },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -1.853468698622738e-6,
+							"y": 1.533664179845954e-6,
+							"z": 2.574186056508613e-6
+						},
+						"position": {
+							"x": -28.3075008392334,
+							"y": -0.15465649962425232,
+							"z": -2.0226470951456577e-6
+						}
+					}
+				},
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "003AAB3D2C739F59",
+						"flag": "5F"
+					}
+				},
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_fFrequency": { "type": "float32", "value": 90.0 },
+				"m_vTranslationScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.10000000149011612
+					}
+				},
+				"m_nIterations": { "type": "uint32", "value": 3 },
+				"m_fDamping": {
+					"type": "float32",
+					"value": 0.20000000298023224
+				},
+				"m_fBendStiffness": {
+					"type": "float32",
+					"value": 0.8999999761581421
+				},
+				"m_vGravity": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": -20.81999969482422
+					}
+				},
+				"m_eBendConstrainType": {
+					"type": "EClothBendConstrainType",
+					"value": "eClothBendConstrainType_Triangle"
+				},
+				"m_fShearStiffness": {
+					"type": "float32",
+					"value": 0.4000000059604645
+				},
+				"m_fAngularVelocityThreshold": {
+					"type": "float32",
+					"value": 30.0
+				},
+				"m_fAngularVelocityBlendRange": {
+					"type": "float32",
+					"value": 30.0
+				},
+				"m_bEnableAngularVelocityScale": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafecc93374ebf06",
+						"cafe9a94d0874734",
+						"cafe4663260c016d",
+						"cafeefe234625726",
+						"cafe5a8450bacd83",
+						"cafe79b6bf95cd67",
+						"cafe29744a71d9e8"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"cafecc93374ebf06": {
+			"parent": "fffffffffffffffe",
+			"name": "Mesh_Head",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "001102E45A015797",
+						"flag": "5F"
+					}
+				},
+				"m_IsHiddenInVR": { "type": "bool", "value": true }
+			}
+		},
+		"cafe63001ad4c782": {
+			"parent": "fffffffffffffffe",
+			"name": "Mesh_hat",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00675C2A4D3348A4",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafe9a94d0874734": {
+			"parent": "fffffffffffffffe",
+			"name": "Mesh_Jacket",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00BA488D45E88F2E",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafeefe234625726": {
+			"parent": "fffffffffffffffe",
+			"name": "Mesh_Short",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00A0CD18D8BF535B",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafe4663260c016d": {
+			"parent": "fffffffffffffffe",
+			"name": "Mesh_Shoes",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/civilians/italy/local_mens/geometry/male_reg_locals_04.wl2?/sandals.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafeaca0be47fb96": {
+			"parent": "cafefffd1c5da886",
+			"name": "glasses_aviator_fullframe_bridge_slvr",
+			"factory": "00379F0995149DAA",
+			"blueprint": "00BD730C0722F7C4",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 72.6091470559973,
+							"y": 89.63738143730168,
+							"z": 103.0315176260273
+						},
+						"position": {
+							"x": 0.07490900158882141,
+							"y": 0.001857999945059419,
+							"z": 0.000012999999853491316
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.0609899759292605,
+						"y": 1.0610899925231934,
+						"z": 0.9660000205039978
+					}
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#fcb74e"
+				},
+				"Diffuse_Tint_Value": {
+					"type": "SColorRGB",
+					"value": "#dba786"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafefffd1c5da886",
+					"postInit": true
+				}
+			}
+		},
+		"cafefffd1c5da886": {
+			"parent": "fffffffffffffffe",
+			"name": "Attacher_Head",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_BoneName": { "type": "ZString", "value": "Head" },
+				"m_linkedEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafe5a8450bacd83": {
+			"parent": "fffffffffffffffe",
+			"name": "Mesh_Hands",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0067D00FEA9E5C2C",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafe79b6bf95cd67": {
+			"parent": "fffffffffffffffe",
+			"name": "Mesh_Lags",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00B9EA64BA34049C",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafe29744a71d9e8": {
+			"parent": "fffffffffffffffe",
+			"name": "Mesh_Hair",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0018E5C1451EB3F5",
+						"flag": "5F"
+					}
+				},
+				"m_IsHiddenInVR": { "type": "bool", "value": true }
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

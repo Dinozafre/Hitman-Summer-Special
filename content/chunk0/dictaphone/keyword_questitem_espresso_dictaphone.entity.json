@@ -1,0 +1,54 @@
+{
+	"tempHash": "00F0A319FFA5BC88",
+	"tbluHash": "00F9E2D95CC97AA5",
+	"rootEntity": "cafeb72088a3ecf9",
+	"entities": {
+		"cafe23ba6b3c2ac5": {
+			"parent": "cafeb72088a3ecf9",
+			"name": "entity_ITEM_ESPRESSO_DICTAPHONE",
+			"factory": "[modules:/zkeywordentity.class].pc_entitytype",
+			"blueprint": "[modules:/zkeywordentity.class].pc_entityblueprint",
+			"properties": {
+				"m_sKeyword": {
+					"type": "ZString",
+					"value": "ESPRESSO_DICTAPHONE"
+				},
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafeb72088a3ecf9"]
+				}
+			},
+			"outputCopying": {
+				"Keyword": { "Keyword": ["cafeb72088a3ecf9"] }
+			}
+		},
+		"cafeb72088a3ecf9": {
+			"parent": null,
+			"name": "Keyword_ITEM_ESPRESSO_DICTAPHONE",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"inputCopying": {
+				"GetKeyword": { "GetKeyword": ["cafe23ba6b3c2ac5"] }
+			},
+			"propertyAliases": {
+				"m_aHolders": [
+					{
+						"originalProperty": "m_aHolders",
+						"originalEntity": "cafe23ba6b3c2ac5"
+					}
+				]
+			},
+			"exposedInterfaces": { "ZKeywordEntity": "cafe23ba6b3c2ac5" }
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
